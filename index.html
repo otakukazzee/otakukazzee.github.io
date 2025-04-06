@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sardidev - Github Pages</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <header>
+        <h1>Sardidev</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Media Sosial</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle"><i class="fas fa-adjust"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile" class="visible">
+            <div class="profile-card">
+                <img src="MyProfile/profile.jpg" alt="Profile Picture">
+                <div class="profile-name">
+                    Sardidev <span class="verified"><i class="fas fa-check-circle"></i></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="music" class="music-section visible">
+            <h2>Musik</h2>
+            <audio id="background-music" src="MyMusik/Memories - Maki Otsuki.mp3" loop></audio>
+            <div class="music-card">
+                <img src="MyAlbum/album.jpg" alt="Album 1">
+                <div class="music-info">
+                    <h3 class="music-title">Memories</h3>
+                    <p class="music-artist">Maki Otsuki</p>
+                </div>
+                <div class="music-controls">
+                    <button id="play-pause-button" class="button"><i class="fas fa-play"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="visible">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang programmer yang memiliki ketertarikan mendalam terhadap dunia teknologi dan anime. Dengan latar belakang dalam pengembangan perangkat lunak, saya selalu berusaha untuk mengasah keterampilan saya dalam berbagai bahasa pemrograman dan alat pengembangan.</p>
+            <p><strong>Minat dalam Anime:</strong></p>
+            <ul>
+                <li><strong>Kreativitas dan Cerita:</strong> Anime memberikan inspirasi bagi saya dalam menciptakan cerita dan karakter yang menarik. Saya sering mengambil elemen dari anime untuk diterapkan dalam proyek pengembangan saya.</li>
+                <li><strong>Komunitas:</strong> Saya aktif terlibat dalam komunitas anime, berbagi rekomendasi dan berdiskusi tentang berbagai judul. Ini membantu saya tetap terhubung dengan orang-orang yang memiliki minat yang sama.</li>
+            </ul>
+            <p><strong>Dunia Teknologi:</strong></p>
+            <ul>
+                <li><strong>Inovasi:</strong> Saya selalu mengikuti perkembangan terbaru dalam teknologi, termasuk kecerdasan buatan, pengembangan web, dan aplikasi mobile. Saya percaya bahwa teknologi dapat digunakan untuk menciptakan solusi yang bermanfaat bagi masyarakat.</li>
+                <li><strong>Proyek Pribadi:</strong> Saya sering mengerjakan proyek pribadi yang menggabungkan minat saya dalam anime dan teknologi, seperti aplikasi yang merekomendasikan anime berdasarkan preferensi pengguna.</li>
+            </ul>
+            <p>Dengan kombinasi keterampilan teknis dan minat yang kuat terhadap anime, saya berusaha untuk menciptakan karya yang tidak hanya fungsional tetapi juga menarik secara visual dan naratif.</p>
+        </section>
+
+        <section id="portfolio" class="visible">
+            <h2>Portofolio</h2>
+            <div class="portfolio-item">
+                <div class="portfolio-card">
+                    <a href="MyPortfolio/python_project.jpg" data-lightbox="portfolio" data-title="Simulasi Sistem Operasi dengan Python">
+                        <img src="MyPortfolio/python_project.jpg" alt="Proyek Python">
+                    </a>
+                    <div class="portfolio-content">
+                        <h3>Simulasi Sistem Operasi dengan Python</h3>
+                        <p>Proyek ini menggunakan Python dan Tkinter untuk membuat simulasi sistem operasi. Saya mengembangkan antarmuka pengguna yang interaktif untuk menggambarkan proses manajemen memori dan penjadwalan proses. Ini membantu saya memahami konsep dasar sistem operasi dan bagaimana mereka berfungsi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-card">
+                    <a href="MyPortfolio/flutter_project.jpg" data-lightbox="portfolio" data-title="Aplikasi Mobile dengan Flutter">
+                        <img src="MyPortfolio/flutter_project.jpg" alt="Proyek Flutter">
+                    </a>
+                    <div class="portfolio-content">
+                        <h3>Aplikasi Mobile dengan Flutter</h3>
+                        <p>Proyek ini menggunakan Flutter sebagai framework untuk mengembangkan aplikasi mobile yang responsif dan menarik. Flutter memungkinkan saya untuk membangun antarmuka pengguna yang indah dan performa tinggi dengan satu basis kode untuk iOS dan Android. Saya sangat menyukai kemudahan dan fleksibilitas yang ditawarkan oleh Flutter dalam pengembangan aplikasi.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tambahkan lebih banyak item portofolio sesuai kebutuhan -->
+        </section>
+
+        <section id="contact" class="visible">
+            <h2>Media Sosial</h2>
+            <div class="social-icons">
+                <a href="https://github.com/otakukazzee" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/6282118867394" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/sardidevs.me?igsh=MWhwcXl6YTFpaDZpZA==" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61574876240578" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - 2026 Sardidev. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <script src="Javascript/script.js"></script>
+</body>
+                                                     </html>
