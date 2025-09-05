@@ -1,4 +1,4 @@
-# Tutorial Penggunaan Chatbot AI Bucin (AI Sardidev)
+# Tutorial Penggunaan Chatbot AI Bucin (AI Otakukazzee)
 
 Selamat datang di panduan penggunaan **AI Bucin**, chatbot interaktif yang siap mendengarkan cerita cinta, berbagi tips, dan menemani keseharianmu dengan emoji, GIF, dan animasi seru.
 
