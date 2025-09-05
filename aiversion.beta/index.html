@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI(Otakukazzee) | Bucin v2</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="stylesMainCss/style.css">
+</head>
+<body>
+  <div class="chat-container" role="main" aria-label="Chat AI Bucin Sahabat Cinta">
+    
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <img src="https://placehold.co/40x40/fbbc05/white?text=♡" alt="Avatar AI Bucin" class="avatar"/>
+        <div class="header-text">
+          <h3>AI Otakukazzee</h3>
+          <p>Developed by @Sardidev</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <button aria-label="Info chat" id="infoBtn"><i class="fas fa-info-circle"></i></button>
+      </div>
+    </header>
+
+    <!-- Chat messages -->
+    <section id="chatMessages" class="chat-messages" aria-live="polite" aria-relevant="additions"></section>
+
+    <!-- Typing indicator -->
+    <div id="typingIndicator" class="typing-indicator">
+      <div class="typing-dot"></div>
+      <div class="typing-dot"></div>
+      <div class="typing-dot"></div>
+      AI(Otakukazzee) sedang mengetik...
+    </div>
+
+    <!-- Input area -->
+    <form class="input-area" id="chatForm">
+      <div class="input-box">
+        <button type="button" id="emojiBtn" class="emoji-btn"><i class="fas fa-smile"></i></button>
+        <input type="text" id="userInput" placeholder="Tulis pesan..." autocomplete="off" required/>
+        <button type="submit" class="send-btn"><i class="fas fa-paper-plane"></i></button>
+      </div>
+
+      <!-- Emoji Picker -->
+      <div id="emojiPicker" class="emoji-picker">
+        <span class="emoji-item" tabindex="0">❤️</span>
+        <span class="emoji-item" tabindex="0">😍</span>
+        <span class="emoji-item" tabindex="0">🥰</span>
+        <span class="emoji-item" tabindex="0">😘</span>
+        <span class="emoji-item" tabindex="0">💕</span>
+        <span class="emoji-item" tabindex="0">🌹</span>
+        <span class="emoji-item" tabindex="0">🥺</span>
+        <span class="emoji-item" tabindex="0">😔</span>
+        <span class="emoji-item" tabindex="0">💔</span>
+        <span class="emoji-item" tabindex="0">🤗</span>
+        <span class="emoji-item" tabindex="0">😊</span>
+        <span class="emoji-item" tabindex="0">🎉</span>
+      </div>
+    </form>
+  </div>
+
+  <!-- Info Modal -->
+  <div id="infoModal" class="modal">
+    <div class="modal-content">
+      <p>Jika anda memiliki saran hubungi Developer ❤️</p>
+      <button id="closeInfo">Tutup</button>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="LogicMainJs/logic.js"></script>
+</body>
+</html>
