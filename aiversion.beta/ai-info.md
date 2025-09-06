@@ -114,3 +114,7 @@ AI dapat mendeteksi mood berdasarkan kata atau emoji di pesanmu:
 ---
 
 Dengan panduan ini, kamu bisa menikmati interaksi penuh dengan **AI Bucin** secara maksimal. 💖
+
+---
+**Akses Bot:**
+https://otakukazzee.github.io/aiversion.beta/
